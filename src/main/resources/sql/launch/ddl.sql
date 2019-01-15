@@ -1,8 +1,7 @@
-create database if not exists recordtask default character set utf8 collate utf8_general_ci;
-
-use recordtask;
+use task;
 
 drop table if exists record;
+
 create table if not exists record (
 
   id              int(11) auto_increment, primary key(id),
