@@ -5,7 +5,7 @@ drop table if exists record;
 create table if not exists record (
 
   id              int(11) auto_increment, primary key(id),
-  `date`          date not null,
+  date            date not null,
   task            int (12) not null unique,
   client          varchar (40) not null,
   address         varchar (80) not null,
