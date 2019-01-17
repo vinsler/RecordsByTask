@@ -1,4 +1,4 @@
-package Records.entities;
+package records.entities;
 
 import javax.persistence.*;
 import lombok.Getter;
