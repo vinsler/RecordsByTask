@@ -38,7 +38,7 @@ public class JpaConfig{
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/record??useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&characterEncoding=UTF-8");
         dataSource.setUsername( "zvezda" );
         dataSource.setPassword( "zb@8#hY3YOx5BmiBiXYYo11e5^08oWSS" );
