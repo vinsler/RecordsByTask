@@ -1,0 +1,8 @@
+records\config\ServiceConfig.class
+records\config\MvcConfig.class
+records\config\WebAppInitializer.class
+records\services\RecordService.class
+records\entities\Record.class
+records\controller\RecordController.class
+records\repository\RecordRepository.class
+records\config\JpaConfig.class
