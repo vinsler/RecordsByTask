@@ -40,7 +40,7 @@
 
     <properties>
         <spring>        5.1.4.RELEASE   </spring>
-        <hibernate>     5.4.0.Final     </hibernate>
+        <hibernate>5.4.24.Final</hibernate>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
